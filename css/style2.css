@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playwrite+AU+NSW:wght@100..400&display=swap');
+
+* {
+    padding: 0;
+    margin:0;
+}
+
+body {
+    background:#FAFAFA;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: bold; */
+    font-style: 12px;
+    font-size: 12px;
+}
+
+header {
+    background-color: blue;
+    padding: 20px;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    font-family: "Playwrite AU NSW", cursive;
+    font-optical-sizing: auto;
+    font-weight: Bold;
+    font-style: 25px;
+}
+
+nav {
+    background-color: rgb(7, 7, 160);
+    color: white;
+    padding: 10px;
+}
+
+nav #menu {
+    text-align: center;
+}
+
+#menu a, #menu a:visited {
+    color:white;
+    text-decoration: none;
+}
+
+#menu a:hover, #menu a:active {
+    color:rgb(177, 168, 168);
+    text-decoration: none;
+}
+/* 
+Link, hover, active & visited */
+
+#hero {
+    background-color: #505059;
+    /* height: 300px; */
+    display: flex;
+    /* justify-content:center; */
+    align-items: center;
+}
+
+.hero-left, .hero-right {
+    width: 40%;
+    padding: 60px;
+    color: #FCFCFC;
+}
+.hero-left h2 {
+    font-size: 40px;
+}
+.hero-left p {
+    font-size: 20px;
+}
+.hero-right {
+    padding: 10px;
+    width: 55%;
+}
+
+footer {
+    background-color: #4F4F4F;
+    height: 200px;
+    color: #cfcfcf;
+}
+
+/* Table style */
+table {
+  border-collapse: collapse;
+  width: 800px;
+  margin: 50px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(odd) {
+  background-color: #dddddd;
+}
+th {
+    background-color: #666666;
+    color:#FCFCFC;
+    text-transform: uppercase;
+}
+
+td:nth-child(even) {
+    background-color: #e3fde1;
+}
+
+#list {
+    background-color: aliceblue;
+    padding: 50px;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+
+
+
+.main {
+    border: 1px solid #bbbbbb;
+    width: 100%;
+    height: 30px;
+}
+.left {
+    border: 1px solid #bbbbbb;
+    width: 30%;
+    height: 30px;
+}
+.right {
+    border: 1px solid #bbbbbb;
+    width: 50%;
+    height: 30px;
+}
+
+@media screen and (max-width: 375px) {
+  .left, .main, .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    display: none;
+  }
+}
+@media screen and (min-width:500px) {
+  .left, .main, .right {
+    width: 50%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}

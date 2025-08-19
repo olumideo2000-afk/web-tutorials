@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site:: Login</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/navbar-mobile.css" />
+</head>
+<body>
+    <header>
+        <a href="index.html"><img class="logo" src="images/icon.png" alt="Logo"> <span>&nbsp;TUTORIAL WEBSITE</span></a>
+        <a class="mobile" id="mobile" href="javascript:void(0);" onclick="showMenu()">
+            <img src="images/icons/menu.svg" />
+        </a>
+    </header>
+    <nav class="topnav" id="topnav">
+        <div class="left-nav">
+            <a class="web" href="index.html">Home</a>
+            <a class="web" href="about.html">About us</a>
+            <a class="web" href="projects.html">Projects</a>
+            <a class="web" href="services.html">Services</a>
+            <a class="web" href="contact.html">Contact us</a>   
+        </div>
+        <div class="right-nav">
+            <a class="active1" href="login.html">Login</a>   
+            <a class="web" href="register.html">Register</a> 
+        </div>   
+    </nav>
+    <section class="hero">
+        <h1>Login</h1>
+    </section>
+    <section>
+        <div class="login-form">
+            <form action="result.php" method="post">
+                <div>
+                    <label for="username">Username</label>
+                    <input type="text" name="username" placeholder="username" class="form-input" />
+                </div>
+                <div>
+                    <label for="password">Password</label>
+                    <input type="password" name="password" placeholder="Password" class="form-input" />
+                </div>
+                <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+                    <label>Remember me
+                        <input type="checkbox" />
+                    </label>
+                    <a href="#">Forgot Password?</a>
+                </div>
+                <div>
+                    <button type="reset">Reset</button>
+                    <button type="submit">Login</button>
+                </div>
+                <div style="text-align: center; margin-top: 10px;">
+                   Don't have an account? <a href="register.html">Register</a>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+
+    </footer>
+    <div class="footer">
+        <p>All rights reserved &copy; 2025</p>
+    </div>
+    
+    <script src="javascript/script.js"></script>
+</body>
+</html>

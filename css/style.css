@@ -1,0 +1,25 @@
+ #head-red {
+    color: green;
+    font-size: 50px;
+    text-align: center; 
+    font-family:verdana; 
+    text-align: center;
+}
+.colr {
+  color: blue;
+}
+.format {
+  text-align: center;
+  width: 100%;
+}
+.underline {
+  text-decoration: underline;
+}
+section {
+    height: 600px;
+    border-bottom: 1px solid #aaaaaa;
+}
+.bg {
+    background-color: #555;
+    color:white;
+}

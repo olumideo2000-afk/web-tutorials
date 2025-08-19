@@ -1,0 +1,75 @@
+
+@media screen and (max-width: 700px){
+    .left-nav a:not(:first-child) {
+        display: none;
+    }    
+    /* .topnav a:last-child {
+        display: block;
+    }   */
+    .mobile {
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 14px;
+    }
+    
+    .responsive {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .col {
+        display: flex;
+        flex-direction: column;
+    }
+    .w {
+        width: 50%;
+    }
+    .responsive a {
+        float: none;
+        display: block !important;
+        text-align: left;
+        cursor: pointer;
+        width: 100%;
+        border-bottom: 1px solid #5f5f5f;
+    }
+    .responsive > a:hover, .responsive > a:hover {
+        background-color: #d5d3f5;
+        color: black;
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+    .hero h1, .hero p {
+        text-align: center;
+        line-height: 40px;
+    }
+    .hero h1 {
+        font-size: 30px;
+    }
+
+    /* Forms */
+    .login-form {
+        width: 300px;
+        border: 1px solid #cfcfcf;
+        border-radius: 8px;
+        background-color: white;
+        padding:20px;
+        margin: 20px auto;
+    }
+
+    .form-input {
+        width: 94%;
+        padding: 10px 3%;
+        margin-bottom: 20px;
+        border:1px solid #AFAFAF;
+        border-radius:10px;
+    }
+
+}

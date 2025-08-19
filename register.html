@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site:: Register</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/navbar-mobile.css" />
+</head>
+<body>
+    <header>
+        <a href="index.html"><img class="logo" src="images/icon.png" alt="Logo"> <span>&nbsp;TUTORIAL WEBSITE</span></a>
+        <a class="mobile" id="mobile" href="javascript:void(0);" onclick="showMenu()">
+            <img src="images/icons/menu.svg" />
+        </a>
+    </header>
+    <nav class="topnav" id="topnav">
+        <div class="left-nav">
+            <a class="web" href="index.html">Home</a>
+            <a class="web" href="about.html">About us</a>
+            <a class="web" href="projects.html">Projects</a>
+            <a class="web" href="services.html">Services</a>
+            <a class="web" href="contact.html">Contact us</a>  
+        </div>
+        <div class="right-nav">
+            <a class="web" href="login.html">Login</a>   
+            <a class="active1" href="register.html">Register</a> 
+        </div>   
+    </nav>
+    <section class="hero">
+        <h1>Register</h1>
+    </section>
+    <section>
+        <div class="login-form">
+            <form action="result.php" method="post">
+                <div>
+                    <label for="firstname">First name</label>
+                    <input type="text" name="firstname" placeholder="First name" class="form-input" />
+                </div>
+                <div>
+                    <label for="lastname">Last name</label>
+                    <input type="text" name="lastname" placeholder="Last name / Surname" class="form-input" />
+                </div>
+                <div>
+                    <label for="username">Username</label>
+                    <input type="text" name="username" placeholder="username" class="form-input" />
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="username" placeholder="Email Address" class="form-input" />
+                </div>
+                <div>
+                    <label for="Donation">Donation</label>
+                    <input type="number" min="5000" name="donation" placeholder="Donation" class="form-input" />
+                </div>
+                <div>
+                    <label for="dob">Date of Birth</label>
+                    <input type="date" min="18" name="dob" placeholder="Date of Birth" class="form-input" />
+                </div>
+                <div>
+                    <label for="state">State</label>
+                    <select name="state" class="form-input" style="width: 100%;">
+                        <option value="lagos">Lagos</option>
+                        <option value="ogun">Ogun</option>
+                        <option value="oyo">Oyo</option>
+                        <option value="ondo">Ondo</option>
+                        <option value="kogi">Kogi</option>
+                        <option value="ekiti">Ekiti</option>
+                        <option value="fct_abuja">FCT Abuja</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="password">Password</label>
+                    <input type="password" name="password" placeholder="Password" class="form-input" />
+                </div>
+                <div>
+                    <button type="reset">Reset</button>
+                    <button type="submit">Register</button>
+                </div>
+                <div style="text-align: center; margin-top: 10px;">
+                   Already had an account? <a href="login.html">Login</a>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+
+    </footer>
+    <div class="footer">
+        <p>All rights reserved &copy; 2025</p>
+    </div>
+    
+    <script src="javascript/script.js"></script>
+</body>
+</html>

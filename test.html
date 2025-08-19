@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tutorial Website</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Free Web tutorials">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="John Doe">
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    </head>
+    <!-- RGB (Red Blue Green) - #FFAA44 -->
+
+    <body style="background-color:#FCFCFC;">
+        <h1 id="head-red">Welcome to Tehilla's Website</h1>
+        <p>This is a paragraph.</p>
+        <h1>This is heading 1</h1>
+        <h2>This is heading 2</h2>
+        <h3>This is heading 3</h3>
+        <h4>This is header 4</h4>
+        <h5>This header 5</h5>
+        <h6>This is header 6</h6>
+        <hr>
+        <a href="index.html">Home</a>
+        <a href="about.html">About us</a>
+        <a href="project.html">Projects</a>
+        <a href="contact.html">Contact us</a>
+
+        <h2>Images</h2>
+        <img src="images/myimage.jpg" height="300px" width="500px" alt="My Image" title="This is an image" />
+        <img src="https://lasimra.maxvaafrica.com/static/img/lagos_lasimra_logo.png" height="300px" width="500px" alt="My Image" title="This is an image" />
+
+        <h2>Audio</h2>
+         <audio controls>
+            <source src="horse.ogg" type="audio/ogg">
+            <source src="horse.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+            </audio> 
+
+
+
+
+        <section> 
+            <h2>HTML Block & Inline Elements</h2>
+            <h2>Something</h2>
+            <strong>Stong</strong> 
+            <em>Emphasis</em> 
+            <span>Span</span>
+
+        </section>
+        <section>
+             <iframe src="./about.html" height="300px" width="500px" title="description"></iframe> <br>
+             <button onclick="alert('I am a web designer')">Click me (Inline)</button><br>
+             <button id="inner">Click me (Inner)</button> <br>
+             <button id="external">Click me (External)</button>
+             <p id="demo">Helo Araolu & Tehilla</p>
+        </section>
+        <div id="demo2">
+
+        </div>
+        <button onclick="myFunction()">External Function</button>
+    </body>
+    <script>
+        document.getElementById("inner").onclick = () => {
+            alert("This is an Inner Javascript")
+        }
+
+        document.getElementById("demo").innerHTML = "Hello JavaScript!";
+    </script>
+    <script src="javascript/script.js"></script>
+
+</html>

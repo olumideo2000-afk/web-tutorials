@@ -1,0 +1,83 @@
+Frontend === Client Side
+Backend === Server side
+
+Server === Linux Database
+
+Frontend:
+- HTML / CSS / JavaScript
+(Frameworks - React, Vue, Angular etc)
+
+
+Websites:
+- HTML - HyperText Markup Language
+
+<tags> </tags>    (Opening tag / Closing tag)
+Self closing tags <img />
+
+<html>
+<head>
+<title>Tehilla Website</title>
+</head>
+<body>
+<h1>Welcome to Tehilla's Website</h1>
+</body>
+</html>
+
+
+Anchor Tags (Link)
+<a href="#">Link</a>
+
+Integrated Development Environment (IDE)
+H1 - Header 1
+h1 - h6
+<p>htkkejkejnjjke</p>
+<p>nsjhghjd</p>
+
+STYLES
+- Inline
+- Internal
+- External
+
+
+ASSIGNMENT
+1. Creat a Contact Page
+2. Make the home page header 1 title "Welcome to Tehilla's Website"
+	a. Blue for home page
+	b. Red for about page
+
+# 
+Install live server
+
+# ASSIGNMENT (25/7/2025)
+1. Add an audio file into your working directory
+2. Input the path into the html audio element
+3. Using the w3school website (https://w3school.com/html) create a table using the <table> tags
+
+
+JavaScript
+- It is different from JavaScript
+- Frontend language
+
+URL - Universal Resource Location
+
+Nesting
+
+Assignment (31/07/2025)
+* Redesign the Footer page
+* Give like 3 column boxes
+* Make them look different on mobile against Desktop
+* Add your own creativity too
+
+
+# IMAGE FORMATS
+.jgp .jpeg 
+.gif
+.png - larger - transparent background
+.svg
+
+-----
+.cdr
+.psd
+
+
+FORMS
